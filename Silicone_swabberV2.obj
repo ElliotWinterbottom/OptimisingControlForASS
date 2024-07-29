@@ -1,6 +1,6 @@
 # File units = meters
-mtllib Silicone swabber - Part 1.mtl
-g Part 1
+mtllib Silicone swabber - V2.mtl
+g V2
 v 0.0275 0.0275 0.005 
 v 0.0275 0.0275 0 
 v -0.0275 0.0275 0 

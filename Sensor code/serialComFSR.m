@@ -64,7 +64,7 @@ while running
     caxis([0,maxz]);
     colorbar;
     zlim([0,maxz]);
-    view([135 20]);
+   
 
 %plot(dt(1),array(8,8));
 

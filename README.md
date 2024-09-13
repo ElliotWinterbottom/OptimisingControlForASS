@@ -44,6 +44,11 @@ the application itself requires that you have all three devices (linear actuator
 
 ## CAD files 
 Alongside the actual program itself are a series of links to onshape. Onshape is a cloud and broswer based 3D modelling cad software. Accounts are free and these documents should be publicly viewable and downloadable into a file format of your chosing.
+
++ https://cad.onshape.com/documents/8da5f2e435ed1c2d99647e60/w/1188ebe8f962d0bd358b6941/e/1f5ce15f68bbc3019075560d?renderMode=0&uiState=66e482be495df232ce8c6277
++ https://cad.onshape.com/documents/58c003d9042320e168edf0a5/w/8a35c0f10728eb3488271c3a/e/27e480995120d03d1df96912?renderMode=0&uiState=66e482e9b7b3844c11a1ef60
++ https://cad.onshape.com/documents/cbdefa30f0998f939a0d80c6/w/c06ab1810381e835ecec5d59/e/0a421875fe18b105a78f1155?renderMode=0&uiState=66e4830d16019f4d8a0026ce
++ https://cad.onshape.com/documents/4642fe1450d47ae1838a8501/w/c59c654270fac7e9325c1dc3/e/8213d9e7290a6b4dce83d44d
 ## silicone moulding 
 The end effector of the robot which this firmware was made for is made of silicone rubber.
 + A link to the supplier of this silicone can be found here: https://www.smooth-on.com/product-line/ecoflex/

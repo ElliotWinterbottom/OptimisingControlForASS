@@ -1,0 +1,93 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="420340201" file="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode\Swabbing_test_application.prj" location="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode" name="Swabbing_test_application" target="target.mlapps" target-name="Package App">
+    <param.appname>Swabbing_test_application</param.appname>
+    <param.authnamewatermark>Elliot Winterbottom</param.authnamewatermark>
+    <param.email>Elliot.winterbotom@student.manchester.ac.uk</param.email>
+    <param.company>UOM</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>A basic application to run the swabbing tests for the swabbing device</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\winte\AppData\Local\Temp\tpdc637651_4529_443c_976d_de93a2c1ff9f.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+    </param.platforms>
+    <param.output>C:\Users\winte\Downloads</param.output>
+    <param.guid>626d7aad-4d7c-44ab-8bfe-9dc4be0b3765</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Swabbing_test_application.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\advanced_mode.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\camera_info.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\config.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\context.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\depth_frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\depth_sensor.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\depth_stereo_sensor.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\device.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\disparity_frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\format.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\frame_metadata_value.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\frameset.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\librealsense_mex.mexw64</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\motion_frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\motion_stream_profile.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\options.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\pipeline.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\pipeline_profile.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\playback.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\playback_status.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\points.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\pose_frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\recorder.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\roi_sensor.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\sensor.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\stream.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\stream_profile.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\timestamp_domain.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\video_frame.m</file>
+      <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\video_stream_profile.m</file>
+      <file>${PROJECT_ROOT}\directoryGet.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\winte" name="Downloads" optional="false">C:\Users\winte\Downloads</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

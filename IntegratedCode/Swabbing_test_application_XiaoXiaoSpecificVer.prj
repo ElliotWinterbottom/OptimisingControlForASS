@@ -1,15 +1,15 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="420340201" file="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode\Swabbing_test_application.prj" location="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode" name="Swabbing_test_application" target="target.mlapps" target-name="Package App">
-    <param.appname>Swabbing_test_application</param.appname>
+  <configuration build-checksum="920163322" file="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode\Swabbing_test_application_XiaoXiaoSpecificVer.prj" location="C:\Users\winte\OneDrive\Documents\university\Course\3rd year\Summer internships\Technical work\Firmware\IntegratedCode" name="Swabbing_test_application_XiaoXiaoSpecificVer" target="target.mlapps" target-name="Package App">
+    <param.appname>Swabbing_test_application_XiaoXiaoSpecificVer</param.appname>
     <param.authnamewatermark>Elliot Winterbottom</param.authnamewatermark>
     <param.email>Elliot.winterbotom@student.manchester.ac.uk</param.email>
     <param.company>UOM</param.company>
     <param.icon />
     <param.icons />
     <param.summary>A basic application to run the swabbing tests for the swabbing device</param.summary>
-    <param.description />
-    <param.screenshot>C:\Users\winte\AppData\Local\Temp\tpdc637651_4529_443c_976d_de93a2c1ff9f.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.description>This is an application made to aid in the tesing of a linear actuator based swabbing system. The left hand side controls image capture and file saving. The middle allows the safe control of the robot. The right is for the capturing of force sensors. For the full source code as well as a full explanation of setup and use please visit https://github.com/ElliotWinterbottom/OptimisingControlForASS</param.description>
+    <param.screenshot>C:\Users\winte\AppData\Local\Temp\tpee735365_8add_4c39_aecd_73c4bab2faae.png</param.screenshot>
+    <param.version>1.4</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -21,8 +21,6 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.description />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -62,7 +60,6 @@
       <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\timestamp_domain.m</file>
       <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\video_frame.m</file>
       <file>C:\Program Files (x86)\Intel RealSense SDK 2.0\matlab\+realsense\video_stream_profile.m</file>
-      <file>${PROJECT_ROOT}\directoryGet.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
